@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "cozy_sleep",
+  "version": "${version}",
+  "name": "Cozy Sleep",
+  "description": "Adds cozy survival sleep requirements: a nearby lit campfire and some roof coverage above the bed.",
+  "authors": ["Kamorzy"],
+  "contact": {
+    "repo": "https://github.com/Kamorzy/Cozy-Sleep-Conditions.git"
+  },
+  "license": "LGPLv3",
+  "icon": "assets/cozy_sleep/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "kamorzy.cozy_sleep.CozySleepModEntry"
+    ]
+  },
+  "mixins": [
+    "cozy_sleep.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "fabric-api": "*",
+    "java": ">=25",
+    "minecraft": ">=26.1"
+  }
+}

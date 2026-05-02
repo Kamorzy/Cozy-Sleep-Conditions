@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "kamorzy.cozy_sleep.mixin",
+  "compatibilityLevel": "JAVA_22",
+  "mixins": [
+    "ServerPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
